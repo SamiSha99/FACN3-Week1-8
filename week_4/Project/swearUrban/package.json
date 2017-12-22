@@ -1,0 +1,29 @@
+{
+  "name": "swearurban",
+  "version": "1.0.0",
+  "description": "swearUrban is a team of smashing charming individuals:\r Hasan\r Marlen\r Neil",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACN3/swearUrban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACN3/swearUrban/issues"
+  },
+  "homepage": "https://github.com/FACN3/swearUrban#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "nyc": "^11.3.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}

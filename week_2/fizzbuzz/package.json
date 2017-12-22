@@ -1,0 +1,17 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/fizzbuzz.test.js | tap-spec",
+    "test:watch" : "nodemon ./test/fizzbuzz.test.js | tap-spec "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}

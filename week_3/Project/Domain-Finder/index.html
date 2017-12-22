@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domain-Finder</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:500" rel="stylesheet">
+</head>
+  <!-- Body -->
+<body class="content">
+
+  <section>
+    <h1 class="content__title">The Finders!</h1>
+    <div style="text-align:left;">
+    <p class="content__title__tagline">1) Type a Domain that exists.</p>
+    <p class="content__title__tagline">2) Insert a year that site was working in.</p>
+    <p class="content__title__tagline">3) Press "Search the Domain" Button.</p>
+    <p class="content__title__tagline">4) If the domain has archived info
+    a button called "Take me back!" will appear.</p>
+    <p class="content__title__tagline">5) Press "Take me back!" button to go
+    to the past.</p>
+  </div>
+    <div class="content__form">
+      <form>
+        <input type="text" name="text" placeholder="Add domain here" size="25" id="domain_name"><br>
+        <input type="text" name="text" placeholder="Add year to search" size="25" id="year"><br>
+        <button onclick="updateDOM(event)">Search the Domain</button>
+      </form>
+    </div>
+    <div class="content__display">
+      <div class="content__display__location" id="location">
+      </div>
+      <div class="content__display--archive" id="archive_info">
+      </div>
+    </div>
+  </section>
+
+  <script src="./main.js"></script>
+  <script src="./dom.js"></script>
+  <section>
+</body>
+</html>

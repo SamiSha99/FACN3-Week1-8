@@ -1,0 +1,15 @@
+{
+  "name": "romaniser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/romaniser.test.js | tap-spec"
+  },
+  "author": "el o el",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}

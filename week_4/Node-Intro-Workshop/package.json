@@ -1,0 +1,24 @@
+{
+  "name": "Node-Intro-Workshop",
+  "version": "1.0.0",
+  "description": "**Author**: [@bradreeder](https://github.com/bradreeder)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundersandcoders/Node-Intro-Workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foundersandcoders/Node-Intro-Workshop/issues"
+  },
+  "homepage": "https://github.com/foundersandcoders/Node-Intro-Workshop#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
