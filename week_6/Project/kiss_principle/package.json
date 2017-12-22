@@ -1,0 +1,27 @@
+{
+  "name": "kiss_principle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node tests/test.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACN3/kiss_principle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACN3/kiss_principle/issues"
+  },
+  "homepage": "https://github.com/FACN3/kiss_principle#readme",
+  "dependencies": {
+    "env2": "^2.2.0",
+    "pg": "^7.4.0"
+  },
+  "devDependencies": {
+    "request": "^2.83.0"
+  }
+}
